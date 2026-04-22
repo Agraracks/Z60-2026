@@ -76,7 +76,6 @@
   <header>
     <div class="wrap topbar">
       <div class="brand">
-        <!-- Podes trocar esta imagem/base64 se quiseres -->
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAACWCAYAAAAonXpvAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAExmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSfvu78nIGlkPSdXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQnPz4KPHg6eG1wbWV0YSB4bWxuczp4PSdhZG9iZTpuczptZXRhLyc+CjxyZGY6UkRGIHhtbG5zOnJkZj0naHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyc+CgogPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICB4bWxuczpBdHRyaWI9J2h0dHA6Ly9ucy5hdHRyaWJ1dGlvbi5jb20vYWRzLzEuMC8nPgogIDxBdHRyaWI6QWRzPgogICA8cmRmOlNlcT4KICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0nUmVzb3VyY2UnPgogICAgIDxBdHRyaWI6Q3JlYXRlZD4yMDI1LTEwLTE2PC9BdHRyaWI6Q3JlYXRlZD4KICAgICA8QXR0cmliOkV4dElkPjFmM2IwN2Q4LWM1M2UtNDU3Yy05ODY1LTAxMGY3YWRjN2U5NjwvQXR0cmliOkV4dElkPgogICAgIDxBdHRyaWI6RmJJZD41MjUyNjU5MTQxNzk1ODA8L0F0dHJpYjpGYklkPgogICAgIDxBdHRyaWI6VG91Y2hUeXBlPjI8L0F0dHJpYjpUb3VjaFR5cGU+CiAgICA8L3JkZjpsaT4KICAgPC9yZGY6U2VxPgogIDwvQXR0cmliOkFkcz4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PScnCiAgeG1sbnM6ZGM9J2h0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvJz4KICA8ZGM6dGl0bGU+CiAgIDxyZGY6QWx0PgogICAgPHJkZjpsaSB4bWw6bGFuZz0neC1kZWZhdWx0Jz5sb2dvIGFncmFyYWNrcyAtIDUwMHgxNTBweCAtIDE8L3JkZjpsaT4KICAgPC9yZGY6QWx0PgogIDwvZGM6dGl0bGU+CiA8L3JkZjpEZXNjcmlwdGlvbj4KCiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0nJwogIHhtbG5zOnBkZj0naHR0cDovL25zLmFkb2JlLmNvbS9wZGYvMS4zLyc+CiAgPHBkZjpBdXRob3I+QWdlbmNpYSBQVEJSPC9wZGY6QXV0aG9yPgogPC9yZGY6RGVzY3JpcHRpb24+CgogPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICB4bWxuczp4bXA9J2h0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8nPgogIDx4bXA6Q3JlYXRvclRvb2w+Q2FudmEgKFJlbmRlcmVyKSBkb2M9REFHSWszVEVyUUkgdXNlcj1VQUZzMG9RQVpxSSBicmFuZD1CQUMtT1BRbXpXZyB0ZW1wbGF0ZT08L3htcDpDcmVhdG9yVG9vbD4KIDwvcmRmOkRlc2NyaXB0aW9uPgo8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo=" alt="Agraracks" />
         <span class="brand-name">AGRARACKS</span>
       </div>
@@ -200,33 +199,33 @@ const pesoBastidor = {"2000": {"400": 8.55, "500": 8.71, "600": 9.46, "700": 9.7
 const pesoReforcoLateral = {"400": 0.29, "500": 0.36, "600": 0.43, "700": 0.5, "800": 0.58, "900": 0.65, "1000": 0.72, "1100": 0.79, "1200": 0.86};
 const pesoReforcoCentral = {"400": 0.33, "500": 0.42, "600": 0.5, "700": 0.58, "800": 0.67, "900": 0.75, "1000": 0.83, "1100": 0.92, "1200": 1.0};
 const pesoTampo = {"1000": {"400": 4.44, "500": 5.55, "600": 6.67, "700": 7.78, "800": 8.89, "900": 12.49, "1000": 11.11, "1100": 12.22, "1200": 13.33}, "1250": {"400": 5.55, "500": 6.94, "600": 8.33, "700": 9.72, "800": 11.11, "900": 15.27, "1000": 13.88, "1100": 15.57, "1200": 16.66}, "1500": {"400": 6.79, "500": 8.48, "600": 10.08, "700": 11.88, "800": 13.2, "900": 17.08, "1000": 16.82, "1100": 19.21, "1200": 20.33}, "1750": {"400": 8.03, "500": 10.04, "600": 12.05, "700": 14.05, "800": 16.02, "900": 20.89, "1000": 20.08, "1100": 22.92, "1200": 24.09}, "2000": {"400": 9.29, "500": 11.63, "600": 13.89, "700": 16.25, "800": 18.57, "900": 23.83, "1000": 24.07, "1100": 26.83, "1200": 27.98}, "2250": {"400": 10.35, "500": 12.81, "600": 15.52, "700": 18.1, "800": 20.32, "900": 26.72, "1000": 27.0, "1100": 30.66, "1200": 31.94}, "2500": {"400": 11.64, "500": 14.65, "600": 17.2, "700": 20.28, "800": 22.39, "900": 27.21, "1200": 35.03}, "2600": {"400": 12.09, "500": 15.11, "600": 17.84, "700": 20.82, "800": 23.44, "900": 27.21, "1000": 30.23, "1100": 33.8, "1200": 36.28}, "2750": {"400": 12.74, "500": 15.85, "600": 19.11, "700": 22.29, "800": 25.48, "900": 28.66, "1000": 33.35, "1100": 36.22, "1200": 38.22}};
-const bast = {"2000":{"400":24.54,"500":24.85,"600":25.07,"800":25.52,"1000":25.95,"1200":26.4},"2500":{"400":29.82,"500":30.24,"600":30.58,"800":31.24,"1000":31.91,"1200":32.57},"3000":{"400":35.63,"500":36.12,"600":36.44,"800":37.08,"1000":37.77,"1200":40.84},"3500":{"400":39.55,"500":40.03,"600":40.35,"800":41.02,"1000":41.68,"1200":44.76},"4000":{"400":45.38,"500":45.89,"600":46.22,"800":46.89,"1000":47.54,"1200":50.95},"4500":{"400":49.83,"500":50.28,"600":50.51,"800":50.95,"1000":51.4,"1200":55.15},"5000":{"400":55.13,"500":55.68,"600":56.03,"800":56.67,"1000":57.36,"1200":61.09}};
-const niv = {"1500":{"400":31.42,"500":34.0,"600":36.47,"800":41.4,"1000":46.32,"1200":51.24},"1750":{"400":34.31,"500":37.22,"600":40.01,"800":45.61,"1000":51.2,"1200":56.75},"2000":{"400":37.16,"500":40.41,"600":43.55,"800":49.8,"1000":56.06,"1200":62.32},"2250":{"400":42.17,"500":45.91,"600":49.55,"800":56.82,"1000":54.11,"1200":71.37},"2500":{"400":44.79,"500":48.87,"600":52.85,"800":60.78,"1000":68.72,"1200":76.66},"2750":{"400":52.02,"500":56.59,"600":61.07,"800":70.01,"1000":78.97,"1200":87.91}};
+const bast = {"2000":{"400":26.88,"500":27.22,"600":27.46,"800":27.95,"1000":28.42,"1200":28.91},"2500":{"400":32.66,"500":33.12,"600":33.49,"800":34.21,"1000":34.95,"1200":35.67},"3000":{"400":39.02,"500":39.56,"600":39.91,"800":40.61,"1000":41.36,"1200":44.72},"3500":{"400":43.31,"500":43.84,"600":44.19,"800":44.92,"1000":45.64,"1200":49.02},"4000":{"400":49.70,"500":50.25,"600":50.62,"800":51.35,"1000":52.06,"1200":55.80},"4500":{"400":54.57,"500":55.06,"600":55.31,"800":55.80,"1000":56.29,"1200":60.39},"5000":{"400":60.37,"500":60.97,"600":61.36,"800":62.06,"1000":62.81,"1200":66.90}};
+const niv = {"1500":{"400":34.41,"500":37.23,"600":39.94,"800":45.34,"1000":50.73,"1200":56.11},"1750":{"400":37.57,"500":40.76,"600":43.82,"800":49.95,"1000":56.07,"1200":62.15},"2000":{"400":40.70,"500":44.25,"600":47.69,"800":54.54,"1000":61.39,"1200":68.25},"2250":{"400":46.18,"500":50.28,"600":54.26,"800":62.22,"1000":59.26,"1200":78.16},"2500":{"400":49.05,"500":53.52,"600":57.88,"800":66.56,"1000":75.25,"1200":83.95},"2750":{"400":56.97,"500":61.97,"600":66.88,"800":76.67,"1000":86.48,"1200":96.27}};
 const pesoViga = {"1000": 1.62, "1250": 1.94, "1500": 2.26, "1750": 2.58, "2000": 2.9, "2250": 3.22, "2500": 3.54, "2750": 4.14};
 
 const FRETE_RULES = [
-  {min:0,   max:40,   price:11.73},
-  {min:41,  max:50,   price:13.02},
-  {min:51,  max:60,   price:15.78},
-  {min:61,  max:80,   price:19.32},
-  {min:81,  max:100,  price:24.76},
-  {min:101, max:125,  price:31.03},
-  {min:126, max:150,  price:36.44},
-  {min:151, max:175,  price:39.55},
-  {min:176, max:200,  price:45.45},
-  {min:201, max:250,  price:46.52},
-  {min:251, max:300,  price:53.41},
-  {min:301, max:350,  price:58.55},
-  {min:351, max:400,  price:63.79},
-  {min:401, max:450,  price:70.74},
-  {min:451, max:500,  price:80.18},
-  {min:501, max:600,  price:86.36},
-  {min:601, max:700,  price:95.50},
-  {min:701, max:800,  price:113.60},
-  {min:801, max:900,  price:116.49},
-  {min:901, max:1000, price:128.94},
-  {min:1001, max:2499, pricePerKg:0.174},
-  {min:2500, max:Infinity, pricePerKg:0.149}
+  {min:0,   max:40,   price:12.85},
+  {min:41,  max:50,   price:14.26},
+  {min:51,  max:60,   price:17.28},
+  {min:61,  max:80,   price:21.16},
+  {min:81,  max:100,  price:27.12},
+  {min:101, max:125,  price:33.98},
+  {min:126, max:150,  price:39.91},
+  {min:151, max:175,  price:43.31},
+  {min:176, max:200,  price:49.77},
+  {min:201, max:250,  price:50.94},
+  {min:251, max:300,  price:58.49},
+  {min:301, max:350,  price:64.12},
+  {min:351, max:400,  price:69.86},
+  {min:401, max:450,  price:77.47},
+  {min:451, max:500,  price:87.80},
+  {min:501, max:600,  price:94.57},
+  {min:601, max:700,  price:104.58},
+  {min:701, max:800,  price:124.40},
+  {min:801, max:900,  price:127.56},
+  {min:901, max:1000, price:141.19},
+  {min:1001, max:2499, pricePerKg:0.20},
+  {min:2500, max:Infinity, pricePerKg:0.17}
 ];
 const APPLY_SURCHARGE_28 = true;
 const IVA = 0.23;
